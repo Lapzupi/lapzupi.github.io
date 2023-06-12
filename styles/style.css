@@ -1,0 +1,12 @@
+@import url("/styles/reset.css");
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+img {
+    height: 80%;
+    width: 80%;
+}
