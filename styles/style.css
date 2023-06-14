@@ -1,0 +1,25 @@
+@import url("/styles/reset.css");
+@import url("/styles/button.css");
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.company-logo  {
+    width: 80%;
+}
+
+header {
+    display: grid;
+}
+.company-links img {
+    grid-row: 1 / 1;
+
+}
+
+.company-links button {
+    grid-row: 2 / 2;
+}
+
