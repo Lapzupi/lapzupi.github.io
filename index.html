@@ -4,6 +4,7 @@
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPYYJLMZT7"></script>
+    <script async src="/scripts/script.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -24,10 +25,10 @@
     <header>
         <img class="company-logo" alt="Lapzupi" src="/images/lapzupi-logo.png">
         <div class="company-links">
-            <button class="company-discord">discord</button>
-            <button class="company-store">store</button>
-            <button class="company-playnow">play now</button>
-            <button class="company-guide">guide</button>
+            <button class="company-discord" onclick="openSubDomainLink('discord')">discord</button>
+            <button class="company-store" onclick="openSubDomainLink('store')">store</button>
+            <button class="company-playnow" onclick="copyLinkAndSendMessage('play.lapzupi.com')">play now</button>
+            <button class="company-guide" onclick="openSubDomainLink('guide')">guide</button>
         </div>
     </header>
 </body>
